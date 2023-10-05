@@ -6,6 +6,16 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
+a {
+    width: 30px;
+    height: 30px;
+}
+
+.k {
+    display: inline-block;
+    background-color: red;
+}
+
 .container {
 	max-width: 390px;
 }
