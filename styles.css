@@ -11,6 +11,12 @@ a {
     height: 30px;
 }
 
+h1 {
+    background-color: #fff;
+    background-color: var(--tg-theme-secondary-bg-color);
+    border-radius: 3px;
+}
+
 .k {
     display: inline-block;
     background-color: red;

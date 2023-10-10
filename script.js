@@ -4,6 +4,7 @@ tg.MainButton.textColor = '#FFFFFF';
 tg.MainButton.color = '#2cab37';
 
 let item = "";
+document.getElementsByTagName("h1")[0].innerText = tg.initDataUnsafe.user.first_name
 
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
