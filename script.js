@@ -4,7 +4,7 @@ tg.MainButton.textColor = '#FFFFFF';
 tg.MainButton.color = '#2cab37';
 
 let item = "";
-document.getElementsByTagName("h1")[0].setText(tg.initDataUnsafe.user.first_name);
+document.getElementsByTagName("h1")[0].textContent = tg.initDataUnsafe.user.first_name;
 
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
@@ -14,7 +14,7 @@ let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
 
 btn1.addEventListener("click", function(){
-    document.getElementsByTagName("h1")[0].setText(tg.initDataUnsafe.user.first_name);
+    document.getElementsByTagName("h1")[0].textContent = tg.initDataUnsafe.user.first_name;
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
@@ -26,7 +26,7 @@ btn1.addEventListener("click", function(){
 });
 
 btn2.addEventListener("click", function(){
-    document.getElementsByTagName("h1")[0].setText(tg.initDataUnsafe.user.first_name);
+    document.getElementsByTagName("h1")[0].textContent = tg.initDataUnsafe.user.first_name;
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
@@ -38,7 +38,7 @@ btn2.addEventListener("click", function(){
 });
 
 btn3.addEventListener("click", function(){
-    document.getElementsByTagName("h1")[0].setText(tg.initDataUnsafe.user.first_name);
+    document.getElementsByTagName("h1")[0].textContent = tg.initDataUnsafe.user.first_name;
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
