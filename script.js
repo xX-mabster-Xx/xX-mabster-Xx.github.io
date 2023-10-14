@@ -14,6 +14,7 @@ let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
 
 btn1.addEventListener("click", function(){
+    document.getElementsByTagName("h1")[0].setText(tg.initDataUnsafe.user.first_name)
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
@@ -25,6 +26,7 @@ btn1.addEventListener("click", function(){
 });
 
 btn2.addEventListener("click", function(){
+    document.getElementsByTagName("h1")[0].setText(tg.initDataUnsafe.user.first_name)
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
@@ -36,6 +38,7 @@ btn2.addEventListener("click", function(){
 });
 
 btn3.addEventListener("click", function(){
+    document.getElementsByTagName("h1")[0].setText(tg.initDataUnsafe.user.first_name)
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
